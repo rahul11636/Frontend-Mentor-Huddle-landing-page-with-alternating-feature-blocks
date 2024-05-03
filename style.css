@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: hsl(192, 100%, 9%);
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: hsl(322, 100%, 66%);
+}
+a {
+    color: hsl(208, 11%, 55%);
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(./images/bg-hero-desktop.svg);
+}
+.nav-menu{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* margin-top: 10px; */
+}
+.main-logo{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.try-button ,button{
+    font-size: 15px;
+    padding: 15px 50px;
+    border-radius: 20px;
+    font-weight: 750;
+    margin-top: 20px;
+   /* background-color: red;? */
+}
+.btn-txt{
+    background-color: rgb(255, 255, 255);
+    border-width: 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.section{
+    width: 100vw;
+    height: 620px;
+    display: flex;
+    position: absolute;
+}
+.left-section{
+    width: 40vw;
+    height: 620px;
+}
+.left-section h1{
+    margin-top: 10rem;
+    padding-left: 60px;
+    color: black;
+}
+.left-section p{
+    padding-left: 60px;
+    color: rgba(0, 0, 0, 0.585); 
+    font-weight: 500;
+}
+.left-section button{
+    margin-left: 60px;
+    background-color:  hsl(322, 100%, 66%);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+.btn-txt2{
+    border-width: 0px;
+}
+.left-section button a{
+    color: white;
+   text-decoration: none;
+}
+.right-section{
+    width: 60vw;
+    height: 620px;
+}
+.right-section img{
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 57vw;
+    height: 580px;
+}
+
+.section-first{
+    width: 86vw;
+    height:410px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    border-radius: 20px;
+    display: flex;
+
+}
+.left-side{
+    width: 43vw;
+    height:410px;
+}
+.right-side{
+    width: 43vw;
+    height:410px;
+    position: relative;
+}
+.right-img{
+    width: 30vw;
+    height:370px;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+.left-side h3{
+    margin-top: 10rem;
+    padding-left: 60px;
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+}
+.left-side p{
+    padding-left: 60px;
+    color: hsl(208, 11%, 55%);
+    font-weight: 500;
+    font-size: 20px;
+}
+.container{
+    width: 60vw;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    top:100px;
+    left:300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color:white;
+}
+
+.container h3{
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.834);
+}
+.btn-get{
+    background-color:  hsl(322, 100%, 66%);
+    color: rgba(255, 255, 255, 0.815);
+    border-width: 0px;
+    padding: 30px 150px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.footer-section{
+    
+    width: 100vw;
+    height: 600px;
+    background-color:  hsl(192, 100%, 9%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box{
+    width: 80vw;
+    height: 350px; 
+    display: flex;
+}
+.box{
+    width: 16.7vw;
+    height: 350px;
+}
+.box1{
+    width: 30vw;
+}
+.location-btn{
+    display: flex;
+}
+.location-btn img{
+    margin: 15px;
+}
+.para{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.558);
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    margin: 10px;
+}
+.icon-phone{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.558);
+    margin: 10px;
+}
+.icon-email{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.558);
+    margin: 10px;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box2 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.558);
+    margin-top: 20px;
+}
+.box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3 a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.558);
+    margin-top: 20px;
+}
+.box4{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.box4 a{
+    width: 100px;
+    height: 100px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.614);
+    padding: 8px;
+
+}
+.copy-contxt{
+    width: 16.7vw;
+    font-size: 10px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.558);
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 6px;
+}
+/* For small devices (phones) */
+@media only screen and (max-width: 375px) {
+    .main-container {
+      height: auto;
+      background-image: url(./images/bg-hero-mobile.svg);
+    }
+  
+    .nav-menu {
+      justify-content: center;
+    }
+  
+    .main-logo {
+      margin-left: 0;
+    }
+  
+    .try-button {
+      display: none; /* Hide the "Try it Free" button on small screens */
+    }
+  
+    .section {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-section {
+      width: 100%;
+    }
+  
+    .right-section {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .right-section img {
+      width: 80%;
+      height: auto;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+  
+    .section-first {
+      width: 90vw;
+      margin: auto;
+    }
+  
+    .container {
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      top: 30px;
+    }
+  
+    .footer-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  /* For medium and large devices */
+  @media only screen and (min-width: 376px) {
+    .main-container {
+      background-image: url(./images/bg-hero-desktop.svg);
+    }
+  
+    .try-button {
+      display: flex;
+    }
+  
+    .section {
+      height: 620px; /* Adjust as needed */
+    }
+  
+    .right-section img {
+      width: 57vw; /* Adjust as needed */
+      height: 580px; /* Adjust as needed */
+      padding-top: 50px;
+      padding-left: 30px;
+    }
+  
+    .right-img {
+      top: 20px;
+      left: 100px;
+    }
+  
+    .container {
+      top: 100px;
+      left: 300px;
+    }
+  
+    .footer-box {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
